@@ -8,11 +8,11 @@ function AboutTheClub() {
     >
       <div className="order-2 md:order-1">
         <Image
-          width={310}
-          height={310}
           src="/community.svg"
-          alt="Storyset Illustration"
-          className="w-full"
+          alt="About the club"
+          width={280}
+          height={280}
+          className="object-contain"
         />
       </div>
       <div className="order-1 md:order-2">
