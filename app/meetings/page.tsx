@@ -37,7 +37,7 @@ export default async function MeetingsPage() {
           <h1 className="text-xl md:text-3xl font-serif font-bold">
             All Our Gatherings
           </h1>
-          <Link href="/">
+          <Link href="/#meetings">
             <button className="border-2 border-black rounded-sketch md:px-6 px-2 md:py-2 font-bold hover:bg-brand transition-colors">
               ← BACK HOME
             </button>
@@ -117,7 +117,7 @@ export default async function MeetingsPage() {
 
           {/* Back to Top Button */}
           <div className="flex justify-center mt-16">
-            <Link href="/">
+            <Link href="/#meetings">
               <button className="border-2 border-black px-10 py-4 font-bold text-lg  rounded-sketch hover:bg-brand transition-colors shadow-[4px_4px_0px_black] hover:shadow-[6px_6px_0px_black]">
                 RETURN TO HOME
               </button>
