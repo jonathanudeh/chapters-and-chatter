@@ -4,6 +4,10 @@
 
 ---
 
+🔗 Live Link: [Chapters & Chatter](https://chaptersandchatter.vercel.app)
+
+---
+
 ## 🌍 About the Club
 
 Chapters & Chatters exists to make literature vibrant and accessible. Through book discussions, literary events, and educational initiatives, we aim to nurture creativity, critical thinking, and a strong reading culture—especially among younger generations.
