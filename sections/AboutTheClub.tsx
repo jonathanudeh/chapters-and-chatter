@@ -8,7 +8,7 @@ function AboutTheClub() {
     >
       <div className="order-2 md:order-1">
         <Image
-          src="/community.svg"
+          src="/Community.svg"
           alt="About the club"
           width={280}
           height={280}
