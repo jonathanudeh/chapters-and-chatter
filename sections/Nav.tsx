@@ -3,21 +3,28 @@ import Link from "next/link";
 function Nav() {
   return (
     <nav className="max-w-7xl mx-auto px-6 py-8 flex justify-between items-center">
-      <div className="flex items-center gap-2 font-bold text-xl italic underline decoration-brand underline-offset-4">
+      <div className="flex items-center gap-2 font-bold text-lg md:text-xl italic underline decoration-brand underline-offset-4">
         CHAPTERS & CHATTERS
       </div>
-      <div className="hidden md:flex gap-10 font-medium">
-        <a href="#about" className="hover:text-brand">
-          About Us
-        </a>
-        <a href="#meetings" className="hover:text-brand">
-          Meetings
-        </a>
-        <a href="#books" className="hover:text-brand">
-          Books
-        </a>
-        <Link href="/#connect">
-          <button className="border-2 border-black px-6 py-1 rounded-sketch hover:bg-black hover:text-white transition-all">
+      <div className="flex gap-4 md:gap-10 items-center">
+        <div className="hidden md:flex gap-10 font-medium">
+          <a href="#about" className="hover:text-brand">
+            About Us
+          </a>
+          <a href="#meetings" className="hover:text-brand">
+            Meetings
+          </a>
+          <a href="#books" className="hover:text-brand">
+            Books
+          </a>
+        </div>
+        <Link href="/reviews">
+          <button className="border-2 border-black px-4 md:px-6 py-1 rounded-sketch hover:bg-brand hover:text-white transition-all text-sm md:text-base font-medium">
+            Blog
+          </button>
+        </Link>
+        <Link href="/#connect" className="hidden">
+          <button className="border-2 border-black px-4 md:px-6 py-1 rounded-sketch hover:bg-black hover:text-white transition-all text-sm md:text-base font-medium">
             Connect
           </button>
         </Link>
