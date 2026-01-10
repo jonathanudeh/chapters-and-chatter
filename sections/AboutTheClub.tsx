@@ -21,9 +21,8 @@ function AboutTheClub() {
         </h2>
         <p className="text-xl leading-relaxed text-gray-700 mb-6">
           Chapters & Chatters started as a small reading group and is growing
-          into a community of over 10+ bibliophiles. We don&apos;t just read; we
-          analyze, we debate, and occasionally, we cry and laugh over fictional
-          endings.
+          into a community of bibliophiles. We don&apos;t just read; we analyze,
+          we debate, and occasionally, we cry and laugh over fictional endings.
         </p>
         <p className="text-xl leading-relaxed text-gray-700">
           Our mission is to make reading a social experience again in a world
