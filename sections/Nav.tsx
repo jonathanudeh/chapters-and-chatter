@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 function Nav() {
   return (
     <nav className="max-w-7xl mx-auto px-6 py-8 flex justify-between items-center">
@@ -14,9 +16,11 @@ function Nav() {
         <a href="#books" className="hover:text-brand">
           Books
         </a>
-        <button className="border-2 border-black px-6 py-1 rounded-sketch hover:bg-black hover:text-white transition-all">
-          Connect
-        </button>
+        <Link href="/#connect">
+          <button className="border-2 border-black px-6 py-1 rounded-sketch hover:bg-black hover:text-white transition-all">
+            Connect
+          </button>
+        </Link>
       </div>
     </nav>
   );

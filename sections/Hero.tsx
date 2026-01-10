@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 function Hero() {
   return (
@@ -27,25 +28,20 @@ function Hero() {
           A monthly gathering of curious minds, chatters, and people who treat
           fictional characters like real friends.
         </p>
-        <button className="flex items-center gap-4 group">
-          <div className="w-14 h-14 rounded-full border-2 border-black flex items-center justify-center group-hover:bg-brand transition-all shadow-[4px_4px_0px_black]">
-            <span className="text-2xl">+</span>
-          </div>
-          <span className="font-bold uppercase text-lg tracking-widest">
-            Explore With us
-          </span>
-        </button>
+        <Link href="/#books">
+          <button className="flex items-center gap-4 group">
+            <div className="w-14 h-14 rounded-full border-2 border-black flex items-center justify-center group-hover:bg-brand transition-all shadow-[4px_4px_0px_black]">
+              <span className="text-2xl">+</span>
+            </div>
+            <span className="font-bold uppercase text-lg tracking-widest">
+              Explore With us
+            </span>
+          </button>
+        </Link>
       </div>
       <div className="relative">
         {/*  */}
         <div className="p-4 bg-white rotate-2 shadow-xl">
-          {/* <Image
-                     width={310}
-                     height={310}
-                     src="/community.svg"
-                     alt="Doodle"
-                     className="w-full h-auto -rotate-6"
-                   /> */}
           <Image
             width={310}
             height={310}

@@ -14,7 +14,7 @@ function Connect() {
   );
 
   return (
-    <footer className="max-w-7xl mx-auto px-6 py-10 text-center">
+    <footer id="connect" className="max-w-7xl mx-auto px-6 py-10 text-center">
       <h2 className="text-6xl font-serif mb-8">
         Connect <span className="italic font-light text-brand">&</span> stay
         updated
